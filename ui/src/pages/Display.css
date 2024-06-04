@@ -1,0 +1,97 @@
+.displayStyle {
+  width: 80vw;
+  height: 90vh;
+  margin-block: 5vh;
+  margin-left: 20vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  background-color: #dcb5ff;
+  border-radius: 0 25px 25px 0;
+}
+
+.title {
+  width: 80vw;
+  justify-content: center;
+  display: flex;
+  border-radius: 0 15px 0 0;
+  background: #77529e;
+  padding-block: 2vh;
+}
+
+.displayItems {
+  display: flex;
+  position: relative;
+  margin: 0;
+  width: 80vw;
+  height: 75vh;
+}
+
+.fontHeader {
+  display: flex;
+  font-size: 1.2rem;
+  color: #77529e;
+  padding-left: 8vw;
+}
+
+.border {
+  padding-top: 15px;
+  background: #a5bdfd;
+  width: 25vw;
+}
+
+.borderFirst {
+  margin-right: 2vw;
+  border-radius: 0 50px 50px 0;
+}
+
+.borderMid {
+  margin-inline: 1vw;
+  border-radius: 50px;
+}
+
+.borderLast {
+  border-radius: 50px 0 15px 50px;
+  margin-left: 2vw;
+  /* 50px 0 0 50px  */
+}
+
+.upcomingItem {
+  display: flex;
+  background: #d9f2ff;
+  margin: 10px;
+  padding: 15px 10px 15px 15px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.itemRow {
+  margin-right: auto;
+  padding-right: 5px;
+  width: 100%;
+}
+
+.ticketDes {
+  font-size: 1.2rem;
+}
+
+.ticketAssign {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.deleteBtn {
+  padding: 10px;
+  border-radius: 20px;
+  max-height: 30px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  background: #a5bdfd;
+  color: #77529e;
+  align-items: center;
+}

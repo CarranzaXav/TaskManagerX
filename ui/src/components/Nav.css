@@ -1,0 +1,47 @@
+.nav {
+  top: 0;
+  width: 20vw;
+  height: 95vh;
+  padding: 5rem 4rem;
+
+  justify-content: space-between;
+  position: fixed;
+  align-items: flex-start;
+  transition: 0.3s ease-in-out;
+
+  .left {
+    display: flex;
+    position: relative;
+    gap: 2rem;
+  }
+  .links {
+    height: 60vh;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    /* gap: 2rem; */
+    li {
+      display: flex;
+      width: 16vw;
+      padding: 4vh;
+      background: #d9f2ff;
+      border-radius: 10px;
+
+      a {
+        display: flex;
+        flex-direction: row;
+        color: blueviolet;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.navStyle {
+  background: #77529e;
+  border-radius: 25px 0 0 25px;
+  justify-content: center;
+  margin-block: 5vh;
+  position: absolute;
+  height: 90vh;
+}
