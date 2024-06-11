@@ -35,7 +35,7 @@ app.post("/ticket_submit", (req, res) => {
 app.get("/tickets_tracked", (req, res) => {
   const sql = "SELECT * FROM ticket_details";
   db.query(sql, (err, result) => {
-    if (err) res.json({ message: "Server error" });
+    if (err) res.json({ message: "Server error" + err });
     return res.json(result);
   });
 });
