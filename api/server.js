@@ -12,10 +12,10 @@ app.use(express.json());
 const port = 5000;
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "tickets_tracked",
+  host: process.env.DB_HOST,
+  user: process.env.DB_USERNAME,
+  password: env.DB_PASSWORD,
+  database: process.env.DB_DBNAME,
 });
 
 app.post("/ticket_submit", (req, res) => {
