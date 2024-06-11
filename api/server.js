@@ -10,6 +10,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(cors());
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 const port = process.env.PORT || 5000;
